@@ -1,0 +1,24 @@
+{
+  "name": "guildfinder-backend",
+  "version": "0.0.0",
+  "description": "Discord Bot / Database Management for GuildFinder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Lubberts",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "crypto": "^1.0.1",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "erlpack": "github:discordapp/erlpack",
+    "extends-classes": "^1.0.5",
+    "moment": "^2.27.0",
+    "node-fetch": "^2.6.0",
+    "utf-8-validate": "^5.0.2",
+    "ws": "^7.3.1",
+    "zlib-sync": "^0.1.7"
+  }
+}
