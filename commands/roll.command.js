@@ -1,7 +1,7 @@
 module.exports = {
     name: 'roll',
     description: 'A basic command to emulate ingame /roll functionality.',
-    args: false,
+    args: true,
     minArgs: 0,
     usage: '!roll [Number]',
     execute(msg, args) {
