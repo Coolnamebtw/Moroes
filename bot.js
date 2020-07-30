@@ -232,7 +232,7 @@ client.on('message', msg => {
         cmd.execute(msg, args);
     } catch(Error) {
         reply += `\nAn internal error ocurred.`
-        client.console.error(`something went wrong with ${cmd}`);
+        client.console.error(`something went wrong with ${cmd} :: ${Error}`);
         return msg.author.send(reply);
     }
     
