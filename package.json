@@ -15,7 +15,7 @@
     "dotenv": "^8.2.0",
     "erlpack": "github:discordapp/erlpack",
     "extends-classes": "^1.0.5",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "node-fetch": "^2.6.0",
     "utf-8-validate": "^5.0.2",
     "ws": "^7.3.1",
